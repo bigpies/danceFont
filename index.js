@@ -4,6 +4,7 @@ import Texty from 'rc-texty';
 import 'rc-texty/assets/index.css';
 
 class Dance extends Component{
+    
 constructor(props) {
     super(props);
     this.state = {
