@@ -92,7 +92,7 @@ render(){
         <p style={{ marginTop: 16 }}><Button className="btn" onClick={this.onClick}>start</Button></p>
         <Texty enter={this.getEnter} leave={this.getEnter}>{this.state.show && this.props.children}</Texty>
         <div class="add">add</div>
-        <div class="add">add2</div>
+        <div class="add">add2222</div>
     </div>
     
     );
