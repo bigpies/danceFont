@@ -93,7 +93,6 @@ render(){
         <Texty enter={this.getEnter} leave={this.getEnter}>{this.state.show && this.props.children}</Texty>
         <div class="add">add</div>
         <div class="add">add2</div>
-        <div class="add">add3</div>
     </div>
     
     );
