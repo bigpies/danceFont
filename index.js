@@ -4,7 +4,7 @@ import Texty from 'rc-texty';
 import 'rc-texty/assets/index.css';
 
 class Dance extends Component{
-    
+
 constructor(props) {
     super(props);
     this.state = {
@@ -91,7 +91,9 @@ render(){
     <div className="texty-demo" style={{ marginTop: 16 }}>
         <p style={{ marginTop: 16 }}><Button className="btn" onClick={this.onClick}>start</Button></p>
         <Texty enter={this.getEnter} leave={this.getEnter}>{this.state.show && this.props.children}</Texty>
+        <div class="add">add</div>
     </div>
+    
     );
 }
 }
