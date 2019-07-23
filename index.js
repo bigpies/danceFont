@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } form 'antd';
+import { Button } from 'antd';
 import Texty from 'rc-texty';
 import 'rc-texty/assets/index.css';
 
